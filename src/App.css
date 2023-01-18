@@ -1,0 +1,169 @@
+.container{
+  position:fixed;
+  overflow-y: auto;
+  top:0;
+  left: 0;
+  height:100%;
+  width:100%;
+
+  background-color: #f9f9f9;
+}
+
+h1,h2,h3{
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.div-details{
+
+  position: relative;
+  background-color: white;
+  width: 60vw;
+  left: 20vw;
+  top:2.5vw;
+  margin-bottom: 2.5vw;
+  margin-top: 2.5vw;
+  padding: 2vw 2vw 2vw 2vw;
+  border-radius: 1vw;
+  box-shadow: 1.5px 2.5px 2.5px 1.5px rgb(247, 243, 243);
+  
+}
+
+.budget-edit{
+
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: white;
+  background-color: #0071ff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+
+}
+
+.add-icon{
+
+  font-weight: 100;
+}
+.main-details{
+position: relative;
+margin-top: 2vw;
+margin-bottom: 2vw;
+width: 60vw;
+height:auto;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+.main-details-box{
+  width: 18vw;
+  height: 2vw;
+  padding:1vw 1vw 1vw 1vw;
+  /* background-color: #f0f2f5; */
+  background-color: #f0f2f5;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+
+}
+.main-details-box span{
+
+  position: relative;
+  font-weight: bold;
+  top:calc((100% - 16px) / 2);
+}
+
+.main-details-box button{
+  float: right;
+}
+
+
+
+
+
+.search-expenses{
+  width: 59vw;
+
+  border: 0.5px solid #ddd;
+ 
+  padding: 0.5vw 0 0.5vw 0.5vw;
+
+  outline: none;
+  
+}
+
+.expense-table{
+  width: 59.5vw;
+  
+  border-collapse: collapse;
+  margin-top: 2vw;
+  border: 1px solid #ddd;
+  border-radius: 0.75vw;
+}
+
+.expense-table tr{
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table td{
+  padding: 6px 0 6px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tdata-2-3 span{
+  
+  float: right;
+  padding-right: 0.5vw;
+  
+}
+/* .add-expense{
+  display: flex;
+} */
+.add-expense div{
+  position: relative;
+  top:2vw;
+  display: flex;
+}
+.add-expense label{
+  display: none;
+  /* position: relative;
+  top:calc((16px + 0.6vw - 16px) / 2);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 0.5vw; */
+}
+.add-expense input{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 12.5vw;
+  height: 16px;
+  padding: 0.3vw 0 0.3vw 0.3vw;
+  border: 0.5px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  
+}
+
+.add-expense button{
+  position: relative;
+  /* width: 4vw; */
+  /* left:calc((60vw - 6vw) / 2); */
+  margin:0 auto;
+  display: block;
+  margin-top: 56px;
+
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  color: white;
+  background-color: #0071ff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  
+}
+
+button,i:hover{
+  cursor: pointer;
+}
